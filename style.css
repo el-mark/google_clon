@@ -1,0 +1,49 @@
+body, a {
+    font-family: arial,sans-serif;
+}
+.topbar {
+	height: 40px;
+	font-family: arial,sans-serif;
+	color: rgba(0,0,0,0.87);
+	font-size: 13px;
+	margin-bottom: 20px
+}
+.topbar-right{
+	float: right;
+	display: flex;
+	align-items: center;
+}
+.topbar-right div{
+	margin: 0 10px;
+	margin: 0 6px;
+}
+.logo{
+	padding-top: 140px;
+	padding-bottom: 26px;
+}
+.section{
+	display: flex;
+	justify-content: center;
+}
+.search-box{
+	width: 484px;
+	height: 44px;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+	padding: 5px;
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search-box input{
+	border: none;
+	font: 16px arial,sans-serif;
+    line-height: 34px;
+    height: 34px !important;
+    margin-left: 12px;    
+}
+.search-box input:focus {
+    outline: none;
+}
+.microphone{
+	margin-right: 13px;
+}
